@@ -2,7 +2,7 @@
     package="io.flutter.plugins.firebase.core">
 
     <application>
-        <service android:name="com.google.firebase.components.ComponentDiscoveryService">
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
             <meta-data
                 android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
